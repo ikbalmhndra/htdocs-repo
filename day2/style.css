@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 27, 27);
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-tittle {
+    font-family: monospace;
+    color: aliceblue;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+/* navbar */
+.ul-navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    /* background-color: black; */
+}
+
+.li-navbar {
+    /* font-size: 1.1rem; */
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.link-text {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-text:hover {
+    text-decoration: underline;
+}
+
+/* navbar */
+
+
+/* content */
+.content {
+    display: flex;
+    height: auto;
+    /* background-color: yellowgreen; */
+}
+
+.box-pertama {
+    width: 25vw;
+    margin: 5px;
+    height: 45vh;
+    /* background-color: aqua; */
+}
+
+.box-kedua {
+    width: 25vw;
+    margin: 5px;
+    height: 45vh;
+    /* background-color: aqua; */
+}
+
+.h1-tittle {
+    color: white;
+    background-color: rgb(10, 10, 10);
+    font-family: monospace;
+}
+
+.text-content {
+    background-color: rgba(255, 255, 255, 0.080);
+    color: white;
+    font-family: monospace;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+}
+
+.big-text {
+    font-family: monospace;
+    /* font-size: 1rem; */
+    color: aqua;
+    margin-left: 50px;
+    margin-top: 15vh;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    /* background-color: orange; */
+}
+/* content */
+
+
+/* footer */
+.footer {
+    /* background-color: white; */
+    margin-top: 20vh;
+}
+.copyright-text {
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+/* footer */
