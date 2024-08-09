@@ -58,6 +58,8 @@ body {
     margin: 5px;
     height: 45vh;
     /* background-color: aqua; */
+    box-shadow: 5px 5px rgb(255, 0, 0);
+    border: 2px solid aqua;
 }
 
 .box-kedua {
@@ -65,6 +67,8 @@ body {
     margin: 5px;
     height: 45vh;
     /* background-color: aqua; */
+    box-shadow: 5px 5px rgb(255, 0, 0);
+    border: 2px solid aqua;
 }
 
 .h1-tittle {
@@ -74,7 +78,7 @@ body {
 }
 
 .text-content {
-    background-color: rgba(255, 255, 255, 0.080);
+    /* background-color: rgba(255, 255, 255, 0.080); */
     color: white;
     font-family: monospace;
     overflow: hidden;
@@ -89,7 +93,7 @@ body {
     color: aqua;
     margin-left: 50px;
     margin-top: 15vh;
-    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(255, 0, 0);
     /* background-color: orange; */
 }
 /* content */
